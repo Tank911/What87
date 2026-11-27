@@ -9,7 +9,7 @@ if (existsSync(".env")) {
   }
 }
 
-const KEY = process.env.sk-fish-Yme_J3IdywS2tBxOhH6QAZUVznu2vyiaIsDYEbTIIKw;
+const KEY = process.env.FISH_API_KEY;
 const PORT = process.env.PORT || 3000;
 const app = express();
 app.use(express.json({ limit: "1mb" }));
